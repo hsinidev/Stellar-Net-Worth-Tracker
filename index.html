@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO Meta Tags -->
+    <title>Stellar Net Worth Tracker | Secure Financial Dashboard</title>
+    <meta name="description" content="Track your assets, liabilities, and calculate your real-time net worth with our secure, user-friendly financial dashboard. Features a modern UI with an immersive galaxy theme and robust data privacy." />
+    <meta name="keywords" content="net worth tracker, financial dashboard, asset management, liability tracking, personal finance, investment tracker, firebase, react, secure finance app" />
+    <meta name="author" content="HSINI MOHAMED" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://networth-tracker.example.com/" />
+    <meta property="og:title" content="Stellar Net Worth Tracker | Secure Financial Dashboard" />
+    <meta property="og:description" content="Track your assets, liabilities, and calculate your real-time net worth with our secure, user-friendly financial dashboard." />
+    <meta property="og:image" content="https://networth-tracker.example.com/og-image.png" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://networth-tracker.example.com/" />
+    <meta property="twitter:title" content="Stellar Net Worth Tracker | Secure Financial Dashboard" />
+    <meta property="twitter:description" content="Track your assets, liabilities, and calculate your real-time net worth with our secure, user-friendly financial dashboard." />
+    <meta property="twitter:image" content="https://networth-tracker.example.com/og-image.png" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'gold': '#FFD700',
+              'space-dark': '#0d1117',
+              'space-light': '#161b22',
+              'accent-cyan': '#33d3d4',
+              'accent-magenta': '#c734c8',
+            },
+            animation: {
+              'fade-in': 'fadeIn 0.5s ease-in-out',
+              'pulse-slow': 'pulse-slow 8s infinite ease-in-out',
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
+              },
+              'pulse-slow': {
+                '0%, 100%': { opacity: '0.7' },
+                '50%': { opacity: '1' },
+              },
+            },
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "recharts": "https://aistudiocdn.com/recharts@^3.4.1"
+  }
+}
+</script>
+</head>
+  <body class="bg-space-dark">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
